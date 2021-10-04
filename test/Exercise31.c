@@ -16,8 +16,7 @@ int main(int argc, char *argv[]) {
 	//testing variable, applying it to your algorithm for auto-evaluating
 	int testcase = atoi(argv[1]);
 	//Your codes here
-	printf("\nPRIME NUMBERS less than [ %d ] are :", testcase);
-    for (int n = 2; n < testcase; n++)
+	for (int n = 2; n < testcase; n++)
     {
         int prime = 1;
         for (int i = 2; i < n; i++)
