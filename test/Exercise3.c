@@ -18,10 +18,10 @@ int main(int argc, char *argv[]) {
 	//Your codes here
     int i, prime, n;
 
-    for(n=1; n<testcase; n++)
+    for(n=2; n<testcase; n++)
     {
-        prime = 1;
-        for(i=2; i<n; i++)
+        prime = 2;
+        for(i=3; i<n; i++)
             if(n%i == 0)
             {
                 prime = 0;
