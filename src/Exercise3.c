@@ -26,7 +26,7 @@ int main(int argc, char *argv[]) {
                 break;
             }
         if (prime)
-            printf(" %d ", n);
+            printf(" %d", n);
     }
 		 
 	return 0;
