@@ -16,13 +16,9 @@ int main(int argc, char *argv[]) {
 	//testing variable, applying it to your algorithm for auto-evaluating
 	int testcase = atoi(argv[1]);
 	//Your codes here
-	int i, prime, lim_up, n;
+    int i, prime, n;
 
-    printf("\nEnter Limit(N) upto which u want :: ");
-    scanf("%d", &lim_up);
-    printf("\nPRIME NUMBERS less than [ %d ] are :: \n\n",lim_up);
-
-    for(n=1; n<lim_up; n++)
+    for(n=1; n<testcase; n++)
     {
         prime = 1;
         for(i=2; i<n; i++)
@@ -35,6 +31,5 @@ int main(int argc, char *argv[]) {
             printf(" %d ",n);
     }
 
-    printf("\n");
 	return 0;
 }
